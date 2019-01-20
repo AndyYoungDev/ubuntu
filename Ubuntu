@@ -1,0 +1,29 @@
+本项目选择了一台阿里云Ubuntu 16.04服务器 
+### LNMP
+
+1.更新依赖
+
+sudo apt-get update
+
+2.安装Nginx(1.10.3)
+
+apt-get install nginx
+
+3.安装php-fpm(7.0.32)
+
+apt-get install php7.0-fpm
+
+4.安装mysql服务端(5.7.24)
+
+apt-get install mysql-server
+
+5.安装phpmyadmin
+
+apt-get install phpmyadmin
+
+阿里云console会提示有sql注入
+
+
+
+
+
