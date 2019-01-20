@@ -20,3 +20,4 @@ sudo ssserver -p 8388 -k password -m rc4-md5 -d start
 -p 端口
 -k 密码
 -m 加密方式
+
