@@ -3,8 +3,8 @@
 
 1.安装Redis
 
-sudo apt-get install redis-server
+`sudo apt-get install redis-server`
 
 2.测试安装
 
-redis-cli
+`redis-cli`
