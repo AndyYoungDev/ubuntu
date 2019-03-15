@@ -1,6 +1,7 @@
+# Ubuntu 16.04 LNMP
 本项目选择了一台阿里云Ubuntu 16.04服务器 
-### LNMP
 
+# 流程
 1.更新依赖
 
 `sudo apt-get update`

@@ -1,5 +1,6 @@
-Nginx并发优化
-### Nginx
+# Ubuntu 16.04 Nginx并发优化
+
+# 流程
 
 1.修改处理器数量
 

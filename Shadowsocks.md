@@ -1,5 +1,6 @@
-Shadowsocks
-### Shadowsocks
+# Ubuntu 16.04 Shadowsocks
+
+# 安装
 
 1.安装pip
 

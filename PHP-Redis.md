@@ -1,5 +1,5 @@
-PHP-Redis扩展
-### Redis
+# Ubuntu 16.04 PHP-Redis扩展
+# 流程
 
 1.安装PHP-dev
 

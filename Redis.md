@@ -1,5 +1,5 @@
-安装Redis
-### Redis
+# Ubuntu 16.04 Redis
+# 流程
 
 1.安装Redis
 

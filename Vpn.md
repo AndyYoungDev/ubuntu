@@ -1,6 +1,6 @@
-Vpn配置
-### Vpn
-
+#Ubuntu 16.04 Vpn
+Ubuntu 16.04下 pptp vpn配置
+# 流程
 1.安装pptpd
 
 `sudo apt-get install pptpd`
