@@ -22,5 +22,9 @@ chroot_list_enable=YES
 ```bash
 vi /etc/vsftpd.chroot_list
 ```
+6.重新启动vsftpd
+```bash
+service vsftpd restart
+```
 # 注意
 根目录不能有写入权限
