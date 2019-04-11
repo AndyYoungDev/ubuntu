@@ -43,10 +43,35 @@ location /bingfa {
    stub_status on;
 }
 ```
+```bash
+Active connections    #当前 Nginx 正处理的活动连接数.
 
+server accepts handledrequests  #总共处理了*个连接,成功创建*次握手,总共处理了*个请求.
+
+Reading         #nginx 读取到客户端的 Header 信息数.
+
+Writing         #nginx 返回给客户端的 Header 信息数.
+
+Waiting         #开启 keep-alive 的情况下,这个值等于active-(reading+writing),意思就是Nginx已经处理完正在等候下一次请求指令的驻留连接
+```
 8.命令行查看并发配置
 
 ```bash
 netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a,S[a]}'
 ```
 
+```bash
+SYN_RECV        #一个连接请求已经到达，等待确认
+
+ESTABLISHED     #正常数据传输状态/当前并发连接数
+
+FIN_WAIT2       #另一边已同意释放
+
+ITMED_WAIT          #等待所有分组死掉
+
+CLOSING         #两边同时尝试关闭
+
+TIME_WAIT       #另一边已初始化一个释放
+
+LAST_ACK        #等待所有分组死掉
+```
