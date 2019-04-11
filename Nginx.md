@@ -36,3 +36,17 @@ events {
 
 `sudo nginx -t` 测试通过后 `sudo service nginx restart(重新启动) || sudo nginx -s reload(重新加载)`
 
+7.并发查看配置
+
+```
+location /bingfa {
+   stub_status on;
+}
+```
+
+8.命令行查看并发配置
+
+```bash
+netstat -n | awk '/^tcp/ {++S[$NF]} END {for(a in S) print a,S[a]}'
+```
+
